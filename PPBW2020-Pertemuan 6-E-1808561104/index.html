@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <form name="form">
+            <input class="textview" name="textview">
+        </form>
+        <table>
+            <tr>
+                <td colspan="2"><input class="button" type="button" value="C" onclick="c()" style="width: 102px"></td>
+                <td><input class="button" type="button" value="Del" onclick="del()"></td>
+                <td><input class="button" type="button" value="/" onclick="insert('/')"></td>
+                
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="7" onclick="insert(value)"></td>
+                <td><input class="button" type="button" value="8" onclick="insert(value)"></td>
+                <td><input class="button" type="button" value="9" onclick="insert(value)"></td>
+                <td><input class="button" type="button" value="*" onclick="insert('*')"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="4" onclick="insert(value)"></td>
+                <td><input class="button" type="button" value="5" onclick="insert(value)"></td>
+                <td><input class="button" type="button" value="6" onclick="insert(value)"></td>
+                <td><input class="button" type="button" value="-" onclick="insert('-')"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="1" onclick="insert(value)"></td>
+                <td><input class="button" type="button" value="2" onclick="insert(value)"></td>
+                <td><input class="button" type="button" value="3" onclick="insert(value)"></td>
+                <td><input class="button" type="button" value="+" onclick="insert('+')"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="0" onclick="insert(value)"></td>
+                <td><input class="button" type="button" value="." onclick="insert('.')"></td>
+                <td><input class="button" type="button" value="MOD" onclick="insert('%')"></td>
+                <td><input class="button" type="button" value="x^2" onclick="square()"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input class="button" type="button" value="=" onclick="equal()" style="width: 207px"></td>
+            </tr>
+        </table>    
+    </div>
+</body>
+</html>
