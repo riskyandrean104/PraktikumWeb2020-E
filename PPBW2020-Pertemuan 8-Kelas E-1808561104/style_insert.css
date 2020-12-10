@@ -1,0 +1,45 @@
+body {
+    background-color: whitesmoke;
+    font: 400 14px;
+    padding: 20px;
+}
+
+.box{
+    margin-left: 30%;
+}
+
+a{
+    background-color:#f2f2f2;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+form{
+    margin-left: 37%;
+}
+
+td{
+    padding-left: 30px;
+    color: black;
+}
+
+input[type="number"], input[type="text"]{
+    height: 20px;
+    background-color:white;
+    color:black;
+}
+
+h2, h3{
+    text-align: center;
+    color: black;
+}
+
+input[type="submit"]{
+    background-color: #4CAF50;;
+    padding: 5px;
+    border-radius: 5px;
+    color:black;
+    text-decoration: none;
+}
